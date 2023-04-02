@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonPage must be match with snapshot when pokemons are loaded 1`] = `
+<div>
+  <h1>Hows this Pockemon?</h1><!-- Todo: image -->
+  <pokemon-image-stub pokemonid="5" showpokemon="false"></pokemon-image-stub><!-- Todo optiones -->
+  <!-- <PokemonOptions :pokemons="pokemonArr" @select-pokemon="checkAnswer($event)" /> -->
+  <pokemon-options-stub pokemons=""></pokemon-options-stub>
+  <!--v-if-->
+</div>
+`;
+
+exports[`PokemonPage must match with snapshot 1`] = `<h1>Loading...</h1>`;

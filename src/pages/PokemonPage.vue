@@ -64,8 +64,6 @@ export default {
         this.showPokemon = false;
         this.message = `Wrong, it was ${this.pokemon.name}`;
       }
-
-      // this.message = "Wrong!";
     },
   },
   mounted() {
